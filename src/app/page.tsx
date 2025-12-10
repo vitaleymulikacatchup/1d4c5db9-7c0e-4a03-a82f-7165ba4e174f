@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import TestimonialCardThree from '@/components/sections/testimonial/TestimonialC
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactInline from '@/components/sections/contact/ContactInline';
 import FooterBaseSocial from '@/components/sections/footer/FooterBaseSocial';
-import { Award, Heart, HelpCircle, Instagram, Facebook, Twitter, Pinterest, Sparkles, Star } from "lucide-react";
+import { Award, Heart, HelpCircle, Instagram, Facebook, Twitter, Sparkles, Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -324,8 +324,7 @@ export default function LandingPage() {
           socialLinks={[
             { icon: Instagram, href: "https://instagram.com", ariaLabel: "Instagram" },
             { icon: Facebook, href: "https://facebook.com", ariaLabel: "Facebook" },
-            { icon: Twitter, href: "https://twitter.com", ariaLabel: "Twitter" },
-            { icon: Pinterest, href: "https://pinterest.com", ariaLabel: "Pinterest" }
+            { icon: Twitter, href: "https://twitter.com", ariaLabel: "Twitter" }
           ]}
         />
       </div>
