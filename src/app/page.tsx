@@ -49,7 +49,7 @@ export default function LandingPage() {
           description="Explore our curated collection of premium clothing designed for every occasion. From casual everyday wear to sophisticated evening pieces, find your perfect look."
           tag="New Collection"
           tagIcon={Sparkles}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765379338257-tuxxejce.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765380650268-z8f9e37g.jpg"
           imageAlt="Featured clothing collection"
           frameStyle="card"
           buttons={[
